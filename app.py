@@ -8,7 +8,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 # ── YouTube API setup ─────────────────────────────
-API_KEY = "AIzaSyCkZdQjqju6_LiOgajHxpBE_TNefe0yyX8"  # Replace with your actual API key
+API_KEY = "Your api key"  # Replace with your actual API key
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 CATEGORY_MAP = {
